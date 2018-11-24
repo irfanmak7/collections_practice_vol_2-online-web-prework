@@ -1,4 +1,8 @@
 # your code goes here
-def begins_with_r(array)
-
+def begins_with_r(element)
+  if element.start_with?("r")
+     true
+  else
+     false
+  end
 end
