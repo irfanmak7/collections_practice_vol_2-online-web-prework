@@ -2,10 +2,10 @@
    i = 0
    all = array.all?
    if array[i].start_with?('r')
-     puts true
+    true
      i += 1
    else
-     puts false
+     false
      i += 1
    end
  end
